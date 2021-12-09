@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Font Nunito -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+    <title>Bleed To Save</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light fixed-top py-0">
+        <div class="container">
+            <a href="index.html" class="img-fluid navbar-brand"><img src="imgs/nav-logo.png" class="img-hover"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item pr-2">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Login
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="donorLogin.html">As a Donor</a>
+                            <a class="dropdown-item" href="recipientLogin.html">As a Recipiet</a>
+                        </div>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a href="register.html" class="nav-link">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro -->
+
+    <section id="intro-slide">
+        <div class="container mt-2">
+            <h1 class="display-4 section-heading slide-heading mb-2 text-center">BLEED TO SAVE</h1>
+            <p class="slide-description text-center">Bleed To Save is intended to help people in the need of blood, find the required blood by connecting with donors online.</p>
+            <div class="d-flex justify-content-center">
+                <a href="register.html" class="mr-1 btn btn-lg btn-primary slide-btn">Register</a>
+                <a href="login.html" class="ml-1 btn btn-lg btn-primary slide-btn">Login</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="index-list">
+        <!-- Services -->
+        <section id="services" class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-1-5"></div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class=" col-md-4 my-2 my-md-0">
+                            <div class="card">
+                                <div class="mt-1 card-hover center">
+                                    <img src="imgs/card1.png" class="wow animate__animated animate__slideInLeft card-img" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title mt-1 content-heading">NEED BLOOD</h4>
+                                    <p class="card-text content">If you are in need of blood donor, then you have come to the right place. We can help you search for donors.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 my-2 my-md-0">
+                            <div class="card">
+                                <div class="mt-1 card-hover center">
+                                    <img src="imgs/card2.png" class="wow animate__animated animate__slideInUp card-img" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title mt-1 content-heading">FIND DONOR</h4>
+                                    <p class="card-text content">You can find blood donors in your area and can also place blood requests to find the required donor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-5 mb-md-0 mt-2 mt-md-0">
+                            <div class="card">
+                                <div class="mt-1 card-hover center">
+                                    <img src="imgs/card3.png" class="wow animate__animated animate__slideInRight card-img" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title mt-1 content-heading">SAVE LIFE</h4>
+                                    <p class="card-text content">You can help save someone's life by logging in as a donor and accepting their blood requests.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1-5"></div>
+            </div>
+        </section>
+
+        <!-- Pending Requests -->
+        <section id="list" class="index-requests pb-5">
+            <br class="d-md-none">
+            <h2 class="display-4 section-heading text-center mb-4 pt-5 pt-md-0">Blood Requests</h2>
+            <div class="container ">
+                <h5 class="content text-center slide-description mb-5 content">You can help the people in search of a donor by accepting their request. Register now to help save precious lives.</h5>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 my-2 content">
+                        <div class="card">
+                            <div class="card-body pb-4">
+                                <div class="row ">
+                                    <div class="col-4 d-flex flex-column justify-content-center align-items-center ">
+                                        <div class="blood-type text-center d-flex flex-column justify-content-center ">
+                                            <p class="vertical-center">AB+</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 ">
+                                        <h5 class="mt-1 card-title name">Salah Ahmed
+                                        </h5>
+                                        <h6 class="card-subtitle mb-2 text-muted "><i class="fas fa-map-marker-alt mr-2 mt-1"></i><span class="mt-1">Karachi</span>
+                                        </h6>
+                                        <p class="mt-3 card-text info"><i class="fas fa-tint mr-2"></i><span>3 Pints</span><br><i class="far fa-envelope mr-2 mt-1"></i><span class="mt-1">sahmed@gmail.com</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-4 my-2 content">
+                        <div class="card">
+                            <div class="card-body pb-4">
+                                <div class="row ">
+                                    <div class="col-4 d-flex flex-column justify-content-center align-items-center ">
+                                        <div class="blood-type text-center d-flex flex-column justify-content-center ">
+                                            <p class="vertical-center">AB+</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 ">
+                                        <h5 class="mt-1 card-title name">Salah Ahmed
+                                        </h5>
+                                        <h6 class="card-subtitle mb-2 text-muted "><i class="fas fa-map-marker-alt mr-2 mt-1"></i><span class="mt-1">Karachi</span>
+                                        </h6>
+                                        <p class="mt-3 card-text info"><i class="fas fa-tint mr-2"></i><span>3 Pints</span><br><i class="far fa-envelope mr-2 mt-1"></i><span class="mt-1">sahmed@gmail.com</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 my-2 content">
+                        <div class="card">
+                            <div class="card-body pb-4">
+                                <div class="row ">
+                                    <div class="col-4 d-flex flex-column justify-content-center align-items-center ">
+                                        <div class="blood-type text-center d-flex flex-column justify-content-center ">
+                                            <p class="vertical-center">AB+</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 ">
+                                        <h5 class="mt-1 card-title name">Salah Ahmed
+                                        </h5>
+                                        <h6 class="card-subtitle mb-2 text-muted "><i class="fas fa-map-marker-alt mr-2 mt-1"></i><span class="mt-1">Karachi</span>
+                                        </h6>
+                                        <p class="mt-3 card-text info"><i class="fas fa-tint mr-2"></i><span>3 Pints</span><br><i class="far fa-envelope mr-2 mt-1"></i><span class="mt-1">sahmed@gmail.com</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Counter -->
+    <section id="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="animate__animated animate__slideInLeft wow col-12 col-lg-6 vertical-center">
+                    <h1 class="display-4 section-heading about-heading mb-2 left">ABOUT US</h1>
+                    <p class="about-description left">Bleed To Save intends to help people in need of blood find blood donors. The recipients can search donors efficiently using area and blood type filters. Many people have successfully found donors using this platform. We are glad to
+                        bring together and connect people for this cause.</p>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="count-left-margin col-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-lg-12 mb-4">
+                            <div class="d-flex flex-row">
+                                <span aria-hidden="true" class="wow animate__animated animate__zoomIn icon-calendar fs1 mr-3 mr-md-4 mt-3"></span>
+                                <div class="d-flex flex-column">
+                                    <h2 class="display-4 count"><span class="counter">6</span><span>+</span></h2>
+                                    <hr class="count-line mb-2">
+                                    <p class="counter-content">Years of Service</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-4 col-lg-12 mb-4">
+                            <div class="d-flex flex-row">
+                                <span aria-hidden="true" class="wow animate__animated animate__zoomIn icon-users fs1 mr-3 mr-md-4 mt-3"></span>
+                                <div class="d-flex flex-column">
+                                    <h2 class="display-4 count"><span class="counter">30</span><span>+</span></h2>
+                                    <hr class="count-line mb-2">
+                                    <p class="counter-content">Registered Users</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-4 col-lg-12">
+                            <div class="d-flex flex-row">
+                                <span aria-hidden="true" class="wow animate__animated animate__zoomIn icon-trophy fs1 mr-3 mr-md-4 mt-3"></span>
+                                <div class="d-flex flex-column">
+                                    <h2 class="display-4 count"><span class="counter">10</span><span>+</span></h2>
+                                    <hr class="count-line mb-2">
+                                    <p class="counter-content">Successful Cases</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact Us -->
+    <footer id="contact-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-5 center vertical-center">
+                    <img src="imgs/logo.png" class="footer-logo img-fluid img-hover">
+                </div>
+                <div class="col-4 col-sm-2 center">
+                    <ul>
+                        <li>
+                            <p><a href="index.html">Home</a></p>
+                        </li>
+                        <li>
+                            <p><a href="login.html">Login</a></p>
+                        </li>
+                        <li>
+                            <p><a href="register.html">Register</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-8 col-sm-5 center">
+                    <ul>
+                        <li>
+                            <p><i class="fab fa-instagram mr-2 "></i><a href="# ">bleedtosave</a></p>
+                        </li>
+                        <li>
+                            <p><i class="fab fa-facebook mr-2 "></i><a href="# ">bleedtosave</a></p>
+                        </li>
+                        <li>
+                            <p><i class="fab fa-twitter mr-2 "></i><a href="# ">bleedtosave</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+    <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+    <script>
+        $(function() {
+            $(document).scroll(function() {
+                var $nav = $("#mainNavbar ");
+                $nav.toggleClass("scrolled ", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000,
+        });
+    </script>
+    <script src="js/wow.min.js " type="text/javascript "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
